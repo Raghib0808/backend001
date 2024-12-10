@@ -9,6 +9,9 @@ app.listen(3000,()=>{
     
 });
 
+
+// all working correclt
+
 // writing on my onwaiting
 // const express=require("express")
 // const app=express();
