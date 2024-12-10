@@ -1,7 +1,10 @@
 const express = require("express");
 const app=express();
-app.use("/test",(req,res)=>{
-    res.send('Funny how life works');
+app.get("/test",(req,res)=>{
+    res.send({
+        Name:"raghib",
+        status:"unemployed",
+    });
     
 })
 app.listen(3000,()=>{
